@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Access Error</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="brand-panel">
+        <a class="brand-mark" href="./login.html">
+          <span class="logo" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none">
+              <path d="M32 4 55.4 17.5v29L32 60 8.6 46.5v-29L32 4Z" fill="white" opacity=".96" />
+              <path d="M32 12 48.5 21.5v19L32 50 15.5 40.5v-19L32 12Z" fill="#326ce5" />
+              <circle cx="32" cy="31" r="6" fill="white" />
+              <path d="M32 16v9M32 37v9M18.6 23.5l7.8 4.5M37.6 34l7.8 4.5M18.6 38.5l7.8-4.5M37.6 28l7.8-4.5" stroke="white" stroke-width="3" stroke-linecap="round" />
+            </svg>
+          </span>
+          <span>
+            <span class="brand-title">Kubernetes Platform</span>
+            <span class="brand-subtitle">Access checkpoint</span>
+          </span>
+        </a>
+
+        <div class="hero">
+          <span class="eyebrow">Session interrupted</span>
+          <h1>Access could not continue.</h1>
+          <p class="hero-copy">
+            The login request expired or the session could not be verified. Start a new sign-in flow to continue safely.
+          </p>
+        </div>
+
+        <div class="chips">
+          <span class="chip">Safe retry</span>
+          <span class="chip">OIDC</span>
+          <span class="chip">RBAC</span>
+        </div>
+      </section>
+
+      <section class="form-panel">
+        <div class="card">
+          <div class="card-top">
+            <div class="status-line">
+              <span>Authentication error</span>
+              <span class="status-pill danger">Retry needed</span>
+            </div>
+            <h2>Cannot complete sign in</h2>
+            <p class="card-copy">The platform could not finish this authentication request.</p>
+          </div>
+          <div class="form">
+            <div class="error-icon" aria-hidden="true">!</div>
+            <p class="helper">
+              This can happen when the login tab was open too long, a callback was reused, or the browser session changed.
+            </p>
+            <button class="btn" type="button">Start sign in again</button>
+            <button class="btn secondary" type="button">Back to Kubernetes Dashboard</button>
+            <p class="footer-note">If this repeats, contact your DevOps administrator with the time of the failed login.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

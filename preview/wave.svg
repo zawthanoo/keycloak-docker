@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 360" fill="none">
+  <defs>
+    <linearGradient id="ribbonMain" x1="-160" y1="180" x2="1960" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#bef264" stop-opacity=".22"/>
+      <stop offset=".12" stop-color="#84cc16" stop-opacity=".5"/>
+      <stop offset=".25" stop-color="#facc15" stop-opacity=".55"/>
+      <stop offset=".38" stop-color="#67e8f9" stop-opacity=".86"/>
+      <stop offset=".5" stop-color="#60a5fa" stop-opacity=".95"/>
+      <stop offset=".63" stop-color="#fb7185" stop-opacity=".82"/>
+      <stop offset=".76" stop-color="#d946ef" stop-opacity=".72"/>
+      <stop offset=".88" stop-color="#2563eb" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#c4b5fd" stop-opacity=".22"/>
+    </linearGradient>
+    <linearGradient id="ribbonSoft" x1="-160" y1="180" x2="1960" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22c55e" stop-opacity=".18"/>
+      <stop offset=".2" stop-color="#f59e0b" stop-opacity=".34"/>
+      <stop offset=".42" stop-color="#22d3ee" stop-opacity=".5"/>
+      <stop offset=".62" stop-color="#a78bfa" stop-opacity=".56"/>
+      <stop offset=".82" stop-color="#38bdf8" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#60a5fa" stop-opacity=".16"/>
+    </linearGradient>
+    <filter id="glow" x="-12%" y="-80%" width="124%" height="260%">
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.08 0 0 0 0 0.55 0 0 0 0 1 0 0 0 .28 0"/>
+      <feBlend in="SourceGraphic" in2="blur"/>
+    </filter>
+    <path id="lineA" d="M-190 178C-35 92 75 64 196 114C300 157 332 247 442 251C594 256 558 59 702 83C814 102 760 193 888 202C1045 213 1068 140 1197 152C1345 166 1324 260 1462 226C1590 194 1569 30 1726 40C1838 48 1902 98 1990 140"/>
+    <path id="lineB" d="M-190 207C-42 142 66 120 192 158C305 192 350 230 456 210C582 186 596 110 706 125C820 141 790 210 908 216C1038 223 1084 170 1204 178C1348 187 1350 242 1480 214C1620 184 1642 98 1782 104C1868 108 1934 132 1990 162"/>
+  </defs>
+  <g filter="url(#glow)" stroke-linecap="round" fill="none">
+    <use href="#lineA" stroke="url(#ribbonMain)" stroke-width="1.05" opacity=".22" transform="translate(0,-78)"/>
+    <use href="#lineA" stroke="url(#ribbonMain)" stroke-width="1.08" opacity=".28" transform="translate(0,-69)"/>
+    <use href="#lineA" stroke="url(#ribbonMain)" stroke-width="1.12" opacity=".34" transform="translate(0,-60)"/>
+    <use href="#lineA" stroke="url(#ribbonMain)" stroke-width="1.16" opacity=".4" transform="translate(0,-51)"/>
+    <use href="#lineA" stroke="url(#ribbonMain)" stroke-width="1.2" opacity=".48" transform="translate(0,-42)"/>
+    <use href="#lineA" stroke="url(#ribbonMain)" stroke-width="1.24" opacity=".56" transform="translate(0,-33)"/>
+    <use href="#lineA" stroke="url(#ribbonMain)" stroke-width="1.28" opacity=".64" transform="translate(0,-24)"/>
+    <use href="#lineA" stroke="url(#ribbonMain)" stroke-width="1.32" opacity=".72" transform="translate(0,-15)"/>
+    <use href="#lineA" stroke="url(#ribbonMain)" stroke-width="1.36" opacity=".84" transform="translate(0,-6)"/>
+    <use href="#lineA" stroke="url(#ribbonMain)" stroke-width="1.42" opacity=".92" transform="translate(0,3)"/>
+    <use href="#lineA" stroke="url(#ribbonMain)" stroke-width="1.36" opacity=".82" transform="translate(0,12)"/>
+    <use href="#lineA" stroke="url(#ribbonMain)" stroke-width="1.32" opacity=".72" transform="translate(0,21)"/>
+    <use href="#lineA" stroke="url(#ribbonMain)" stroke-width="1.28" opacity=".62" transform="translate(0,30)"/>
+    <use href="#lineA" stroke="url(#ribbonMain)" stroke-width="1.22" opacity=".52" transform="translate(0,39)"/>
+    <use href="#lineA" stroke="url(#ribbonMain)" stroke-width="1.16" opacity=".42" transform="translate(0,48)"/>
+    <use href="#lineA" stroke="url(#ribbonMain)" stroke-width="1.1" opacity=".32" transform="translate(0,57)"/>
+    <use href="#lineA" stroke="url(#ribbonMain)" stroke-width="1.04" opacity=".24" transform="translate(0,66)"/>
+    <use href="#lineA" stroke="url(#ribbonMain)" stroke-width="1" opacity=".18" transform="translate(0,75)"/>
+
+    <use href="#lineB" stroke="url(#ribbonSoft)" stroke-width=".9" opacity=".2" transform="translate(0,-38)"/>
+    <use href="#lineB" stroke="url(#ribbonSoft)" stroke-width=".95" opacity=".26" transform="translate(0,-26)"/>
+    <use href="#lineB" stroke="url(#ribbonSoft)" stroke-width="1" opacity=".34" transform="translate(0,-14)"/>
+    <use href="#lineB" stroke="url(#ribbonSoft)" stroke-width="1.05" opacity=".42" transform="translate(0,-2)"/>
+    <use href="#lineB" stroke="url(#ribbonSoft)" stroke-width="1" opacity=".34" transform="translate(0,10)"/>
+    <use href="#lineB" stroke="url(#ribbonSoft)" stroke-width=".95" opacity=".26" transform="translate(0,22)"/>
+    <use href="#lineB" stroke="url(#ribbonSoft)" stroke-width=".9" opacity=".2" transform="translate(0,34)"/>
+  </g>
+</svg>
