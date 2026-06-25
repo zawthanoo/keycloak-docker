@@ -1,4 +1,6 @@
-ARG KEYCLOAK_IMAGE=quay.io/keycloak/keycloak:latest
-FROM ${KEYCLOAK_IMAGE}
+FROM quay.io/keycloak/keycloak:latest
 
-COPY themes/k8s-platform /opt/keycloak/themes/k8s-platform
+COPY providers/ /opt/keycloak/providers/
+COPY themes/k8s-platform/ /opt/keycloak/themes/k8s-platform/
+
+RUN /opt/keycloak/bin/kc.sh build
