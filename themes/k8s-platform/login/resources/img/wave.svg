@@ -1,23 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 360" fill="none">
   <defs>
     <linearGradient id="ribbonMain" x1="-160" y1="180" x2="1960" y2="180" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#bef264" stop-opacity=".22"/>
-      <stop offset=".12" stop-color="#84cc16" stop-opacity=".5"/>
-      <stop offset=".25" stop-color="#facc15" stop-opacity=".55"/>
-      <stop offset=".38" stop-color="#67e8f9" stop-opacity=".86"/>
-      <stop offset=".5" stop-color="#60a5fa" stop-opacity=".95"/>
-      <stop offset=".63" stop-color="#fb7185" stop-opacity=".82"/>
-      <stop offset=".76" stop-color="#d946ef" stop-opacity=".72"/>
-      <stop offset=".88" stop-color="#2563eb" stop-opacity=".9"/>
-      <stop offset="1" stop-color="#c4b5fd" stop-opacity=".22"/>
+      <stop offset="0" stop-color="#17B169" stop-opacity=".36"/>
+      <stop offset=".12" stop-color="#2DDC8F" stop-opacity=".62"/>
+      <stop offset=".25" stop-color="#A7F3D0" stop-opacity=".58"/>
+      <stop offset=".38" stop-color="#38E8C7" stop-opacity=".88"/>
+      <stop offset=".5" stop-color="#2DD4BF" stop-opacity=".94"/>
+      <stop offset=".63" stop-color="#FACC15" stop-opacity=".72"/>
+      <stop offset=".76" stop-color="#60A5FA" stop-opacity=".72"/>
+      <stop offset=".88" stop-color="#17B169" stop-opacity=".86"/>
+      <stop offset="1" stop-color="#C8F8DF" stop-opacity=".28"/>
     </linearGradient>
     <linearGradient id="ribbonSoft" x1="-160" y1="180" x2="1960" y2="180" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#22c55e" stop-opacity=".18"/>
-      <stop offset=".2" stop-color="#f59e0b" stop-opacity=".34"/>
-      <stop offset=".42" stop-color="#22d3ee" stop-opacity=".5"/>
-      <stop offset=".62" stop-color="#a78bfa" stop-opacity=".56"/>
-      <stop offset=".82" stop-color="#38bdf8" stop-opacity=".42"/>
-      <stop offset="1" stop-color="#60a5fa" stop-opacity=".16"/>
+      <stop offset="0" stop-color="#17B169" stop-opacity=".24"/>
+      <stop offset=".2" stop-color="#34D399" stop-opacity=".42"/>
+      <stop offset=".42" stop-color="#38E8C7" stop-opacity=".58"/>
+      <stop offset=".62" stop-color="#93C5FD" stop-opacity=".46"/>
+      <stop offset=".82" stop-color="#FDE68A" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#17B169" stop-opacity=".2"/>
     </linearGradient>
     <filter id="glow" x="-12%" y="-80%" width="124%" height="260%">
       <feGaussianBlur stdDeviation="15" result="blur"/>
