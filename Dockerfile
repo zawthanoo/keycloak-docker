@@ -1,6 +1,6 @@
-FROM quay.io/keycloak/keycloak:latest
+FROM quay.io/keycloak/keycloak:26.6.3
 
 COPY providers/ /opt/keycloak/providers/
-COPY themes/k8s-platform/ /opt/keycloak/themes/k8s-platform/
+COPY themes/ /opt/keycloak/themes/
 
 RUN /opt/keycloak/bin/kc.sh build
